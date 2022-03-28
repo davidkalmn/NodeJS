@@ -8,7 +8,8 @@ const kategoriaSchema = new Schema({
         type: Number,
         required: true,
         unique: true,
-        maxlength: 30
+        maxlength: 30,
+        rel: 'Hirdetes'
     }
 })
 
